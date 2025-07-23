@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  fastapi:
+    image: demo_api:latest
+    ports:
+      - "8000:8000"
+    # env_file:
+    #   - .env
+
+
